@@ -38,6 +38,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  
 }
 
 .nav-links {
@@ -57,6 +58,7 @@ a {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  
 }
 
 a:hover {
@@ -66,6 +68,7 @@ a:hover {
   text-decoration-color:rgb(144, 15, 97);
   cursor: pointer;
   border-radius: 10dvh;
+ 
 
   
 }
@@ -130,6 +133,7 @@ a:hover {
 
 .menu-links li {
   list-style: none;
+  
 }
 
 .menu-links.open {
@@ -254,7 +258,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(0, 0, 0) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -262,28 +266,28 @@ section {
   cursor: pointer;
 }
 
-.btn-color-1:hover,
+.btn-color-1,
 .btn-color-2:hover {
-  background: rgb(53, 53, 53);
-  color: rgb(223, 223, 213);
+  background: rgb(55, 54, 54);
+  color: white;
 }
 
 .btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
 
-.btn-color-2,.btn-color-1
- {
+.btn-color-2 {
   background: none;
 }
 
 .btn-color-2:hover {
-  border: rgb(223, 223, 213) 0.1rem solid;
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
   gap: 1rem;
 }
+
 
 /* ABOUT SECTION */
 
@@ -430,6 +434,7 @@ article .icon {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+
 }
 
 .contact-info-container p {
