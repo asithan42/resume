@@ -176,6 +176,7 @@ section {
 
 .section-container {
   display: flex;
+
 }
 
 /* PROFILE SECTION */
@@ -300,6 +301,7 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
 
 .about-details-container {
   justify-content: center;
